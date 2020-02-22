@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tiago.refinaria.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Escolha um dos processos"
+        android:textSize="25dp"
+        android:id="@+id/textView"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:id="@+id/botao_01"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:text="Neutralização e Branqueamento"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/botao_02"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:text="Desodorização"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/botao_03"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:text="Hidrogenação"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/botao_04"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:text="Interesterificação"
+        android:layout_marginTop="15dp" />
+
+
+
+</LinearLayout>
